@@ -43,7 +43,89 @@ It consists of four files, namely as:
 * train.csv
 
 The dataset contains **2919 records (rows)** and **80 features (columns) (including ‘SalePrice’ column of the train dataset)**. **data_description.txt** consists of 
-the information about all the features listed in the train and test csv files.
+the information about all the features listed in the train and test csv files. These features are:
+
+FEATURE | DESCRIPTION
+--------|-------------
+MSSubClass | The type of the house involved in the sale of the property
+MSZoning | The general zoning classification of the sale of the property
+LotFrontage | Linear feet ofstreet connected to the house
+LotArea | Lot size in square feet
+Street | Type of road access to the house
+Alley | Type of alley access to the house
+LotShape | General shape of the house
+LandContour | House flatness
+Utilities | Type of utilities available
+LotConfig | Lot configuration
+LandSlope | House Slope
+Neighborhood | Locations within Ames city limits
+Condition1 | Proximity to various conditions
+Condition2 | Proximity to various conditions (if there is more than one)
+BldgType | House type
+HouseStyle | House style
+OverallQual | Overall quality of material and finish of the house
+OverallCond | Overall condition of the house
+YearBuilt | Construction year
+YearRemodAdd | Remodel year (if no remodeling nor addition, same as YearBuilt)
+RoofStyle | Roof type
+RoofMatl | Roof material
+Exterior1st | Exterior covering on house
+Exterior2nd | Exterior covering on house (if there is more than one material)
+MasVnrType | Type of masonry veneer
+MasVnrArea | Masonry veneer area in square feet
+ExterQual | Quality of the material on the exterior
+ExterCond | Condition of the material on the exterior
+Foundation | Foundation type
+BsmtQual | Basement height
+BsmtCond | Basement Condition
+BsmtExposure | Refers to walkout or garden level walls of the property
+BsmtFinType1 | Rating of basement finished area
+BsmtFinSF1 | Type 1 finished square feet
+BsmtFinType2 | Rating of basement finished area (if there are multiple types)
+BsmtFinSF2 | Type 2 finished square feet
+BsmtUnfSF | Unfinished basement area in square feet
+TotalBsmtSF | Total basement area in square feet
+Heating | Heating type
+HeatingQC | Heating quality and condition
+CentralAir | Central air conditioning
+Electrical | Electrical system type
+1stFlrSF | First floor area in square feet
+2ndFlrSF | Second floor area in square feet
+LowQualFinSF | Low quality finished square feet in all floors
+GrLivArea | Above-ground living area in square feet
+BsmtFullBath | Basement full bathrooms
+BsmtHalfBath | Basement half bathrooms
+FullBath | Full bathrooms above ground
+HalfBath | Half bathrooms above ground
+Bedroom | Bedrooms above ground
+Kitchen | Kitchens above ground
+KitchenQual | Kitchen quality
+TotRmsAbvGrd | Total rooms above ground (excluding bathrooms)
+Functional | Home functionality
+Fireplaces | Number of fireplaces
+FireplaceQu | Fireplace quality
+GarageType | Garage location
+GarageYrBlt | Year garage was built in
+GarageFinish | Interior finish of the garage
+GarageCars | Size of garage (in car capacity)
+GarageArea | Garage size in square feet
+GarageQual | Garage quality
+GarageCond | Garage condition
+PavedDrive | How driveway is paved
+WoodDeckSF | Wood deck area in square feet
+OpenPorchSF | Open porch area in square feet
+EnclosedPorch | Enclosed porch area in square feet
+3SsnPorch | Three season porch construction space in sq. feet
+ScreenPorch | Screen porch area in square feet
+PoolArea | Pool area in square feet
+PoolQC | Pool quality
+Fence | Fence quality
+MiscFeature | Miscellaneous feature
+MiscVal | Value of miscellaneous feature
+MoSold | Sale month
+YrSold | Sale year
+SaleType | Sale type
+SaleCondition | Sale condition
 
 # Code is uploaded and accessible for knowledge purpose!
 
